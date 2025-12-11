@@ -1,4 +1,125 @@
-.golden-img {
-    max-width: 50%;
-    height: auto;
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7; /* light complementary background */
+    color: #333333; /* dark gray text for high contrast */
+    line-height: 1.6;
+}
+
+/* Container div for centered content */
+.container {
+    width: 750px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #2a4d69;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Bold and italic example */
+b {
+    color: #1b3b57;
+}
+
+i {
+    color: #4d648d;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #4d648d;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc5c;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* Lists */
+ul {
+    margin: 10px 0 20px 20px;
+}
+
+/* Horizontal rule */
+hr {
+    border: 1px solid #4d648d;
+    margin: 20px 0;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+
+button {
+    background-color: #2a4d69;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1b3b57;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666666;
+    margin-top: 30px;
 }
