@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Abrianna's Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Paw Art</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+  <div class="container">
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
         <a href="contact.html">Contact</a>
-    </nav>
+      </nav>
+    </header>
 
-    <div class="container">
-        <h1>Contact Me</h1>
+    <main>
+      <h2>Send Us a Message</h2>
+      <p>Have questions or ideas for paw painting? Fill out the form below!</p>
 
-        <p><b>1:</b> We love hearing from fellow cat enthusiasts and artists! Whether you have questions about creative cat activities, want to share your cat’s paw-painted masterpieces, or simply want to connect with other feline art lovers, this is the place to reach out. Your feedback and stories help us learn more about how cats inspire creativity and bring joy to our lives.</p>
+      <form action="https://www.w3schools.com/action_page.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-        <p><i>2:</i> If you’re interested in collaborating on cat-inspired projects or have ideas for exhibitions, digital art applications, or enrichment activities for your feline friends, we welcome your messages. Sharing photos, videos, or tips from your own experiences helps build a community of cat artists and human collaborators. We encourage you to describe your cat’s favorite art methods, such as paw painting, scratch art, or motion-based projects.</p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-        <p>3: You can use the form below to send us your message directly. Please include your name, email, and a brief description of your inquiry or story. We aim to respond promptly and share insights with the community whenever possible. Together, we can celebrate the creativity and charm of cats, and discover new ways to enrich their lives through playful, artistic experiences.</p>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
-        <form action="https://www.w3schools.com/action_page.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
 
         <img src="images/579761138_2384373a41_c.jpg" alt="Small kitty on a laptop">
 

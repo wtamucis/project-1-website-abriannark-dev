@@ -1,125 +1,104 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* General Reset */
+body, h1, h2, p, ul, li, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f5f7; /* light complementary background */
-    color: #333333; /* dark gray text for high contrast */
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f2f0e6;
+  color: #333333;
+  line-height: 1.6;
 }
 
-/* Container div for centered content */
 .container {
-    width: 750px;
-    margin: 20px auto;
-    background-color: #ffffff;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Headings */
-h1, h2 {
-    text-align: center;
-    color: #2a4d69;
-    margin-bottom: 20px;
-}
-
-/* Paragraphs */
-p {
-    text-align: left;
-    margin-bottom: 15px;
-}
-
-/* Bold and italic example */
-b {
-    color: #1b3b57;
-}
-
-i {
-    color: #4d648d;
-}
-
-/* Navigation menu */
-nav {
-    background-color: #4d648d;
-    padding: 10px 0;
-    text-align: center;
-    margin-bottom: 20px;
-    border-radius: 5px;
+header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 nav a {
-    color: #ffffff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  color: #006699;
+  margin: 0 10px;
 }
 
 nav a:hover {
-    color: #ffcc5c;
+  text-decoration: underline;
 }
 
-/* Images */
-img {
-    max-width: 100%;
-    display: block;
-    margin: 10px auto;
-    border-radius: 8px;
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-/* Lists */
+p {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
 ul {
-    margin: 10px 0 20px 20px;
+  margin-bottom: 15px;
+  padding-left: 20px;
 }
 
-/* Horizontal rule */
-hr {
-    border: 1px solid #4d648d;
-    margin: 20px 0;
+figure {
+  text-align: center;
+  margin: 20px 0;
 }
 
-/* Form styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-label {
-    font-weight: bold;
+form label {
+  margin-top: 10px;
 }
 
-input, textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #cccccc;
-    width: 100%;
+form input, form textarea, form button {
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 1em;
 }
 
-button {
-    background-color: #2a4d69;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+form button {
+  background-color: #006699;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
 }
 
-button:hover {
-    background-color: #1b3b57;
+form button:hover {
+  background-color: #004466;
 }
 
-/* Footer */
 footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #666666;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #666666;
 }
