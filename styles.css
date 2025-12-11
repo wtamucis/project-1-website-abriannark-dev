@@ -1,4 +1,104 @@
-.golden-img {
-    max-width: 50%;
-    height: auto;
+/* General Reset */
+body, h1, h2, p, ul, li, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f0e6;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #006699;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+figure {
+  text-align: center;
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea, form button {
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #006699;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+form button:hover {
+  background-color: #004466;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #666666;
 }
